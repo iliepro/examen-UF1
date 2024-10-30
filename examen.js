@@ -36,3 +36,13 @@ function mostrarProductes(productes){
     }
 }
 
+// TASCA 4
+
+function mostrarProducteID(productes, id){
+    let producteEncontrat = productes.find(producte => producte.id === id);
+    if (producteEncontrat) {
+        mostrarProducte(producteEncontrat);
+    } else {
+        console.log("El producte no existeix.");
+    }
+}
