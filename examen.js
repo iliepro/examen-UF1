@@ -35,3 +35,4 @@ function mostrarProductes(productes){
         mostrarProducte(productes[i]);
     }
 }
+
