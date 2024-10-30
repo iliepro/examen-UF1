@@ -16,3 +16,13 @@ function llegirProductes() {
     }
     return arrayObjectes;
 }
+
+// TASCA 2
+
+function mostrarProducte(producte) {
+    console.log("Nom:", producte.nom);
+    console.log("Marca:", producte.marca);
+    console.log("Categoria:", producte.categoria);
+    console.log("Disponibilitat:", producte.disponibilitat);
+    console.log("Característiques:", producte.caracteristiques);
+}
