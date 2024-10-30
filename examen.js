@@ -46,3 +46,25 @@ function mostrarProducteID(productes, id){
         console.log("El producte no existeix.");
     }
 }
+
+// TASCA 5
+
+// comprovacio tasca 1
+comprovarlectura = llegirProductes();
+//console.log(comprovarlectura);
+
+// comprovacio tasca 2
+function obtenirProducte(productes){
+    let producte = producteObject[0];
+    return producte;
+}
+
+//mostrarProducte(obtenirProducte(llegirProductes));
+
+// comprovacio tasca 3
+
+mostrarProductes(llegirProductes());
+
+// comprovacio tasca 4
+
+mostrarProducteID(llegirProductes(), 1);
