@@ -1,3 +1,4 @@
+const fs = require('fs');
 // TASCA 1
 function llegirProductes() {
     let productes; 
@@ -25,4 +26,12 @@ function mostrarProducte(producte) {
     console.log("Categoria:", producte.categoria);
     console.log("Disponibilitat:", producte.disponibilitat);
     console.log("Característiques:", producte.caracteristiques);
+}
+
+// TASCA 3
+
+function mostrarProductes(productes){
+    for (let i = 0; i < productes.length; i++) {
+        mostrarProducte(productes[i]);
+    }
 }
