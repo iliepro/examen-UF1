@@ -51,7 +51,7 @@ function mostrarProducteID(productes, id){
 
 // comprovacio tasca 1
 comprovarlectura = llegirProductes();
-//console.log(comprovarlectura);
+console.log(comprovarlectura);
 
 // comprovacio tasca 2
 function obtenirProducte(productes){
@@ -59,12 +59,10 @@ function obtenirProducte(productes){
     return producte;
 }
 
-//mostrarProducte(obtenirProducte(llegirProductes));
+mostrarProducte(obtenirProducte(llegirProductes));
 
 // comprovacio tasca 3
-
 mostrarProductes(llegirProductes());
 
 // comprovacio tasca 4
-
 mostrarProducteID(llegirProductes(), 1);
